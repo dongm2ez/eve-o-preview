@@ -140,14 +140,14 @@ namespace EveOPreview.View
 			// 
 			RestoreWindowMenuItem.Name = "RestoreWindowMenuItem";
 			RestoreWindowMenuItem.Size = new System.Drawing.Size(199, 30);
-			RestoreWindowMenuItem.Text = "Restore";
+			RestoreWindowMenuItem.Text = "重置设置";
 			RestoreWindowMenuItem.Click += new System.EventHandler(this.RestoreMainForm_Handler);
 			// 
 			// ExitMenuItem
 			// 
 			ExitMenuItem.Name = "ExitMenuItem";
 			ExitMenuItem.Size = new System.Drawing.Size(199, 30);
-			ExitMenuItem.Text = "Exit";
+			ExitMenuItem.Text = "退出";
 			ExitMenuItem.Click += new System.EventHandler(this.ExitMenuItemClick_Handler);
 			// 
 			// TitleMenuItem
@@ -155,7 +155,7 @@ namespace EveOPreview.View
 			TitleMenuItem.Enabled = false;
 			TitleMenuItem.Name = "TitleMenuItem";
 			TitleMenuItem.Size = new System.Drawing.Size(199, 30);
-			TitleMenuItem.Text = "EVE-O Preview";
+			TitleMenuItem.Text = "EVE-O Preview 中文版";
 			// 
 			// SeparatorMenuItem
 			// 
@@ -194,7 +194,7 @@ namespace EveOPreview.View
 			GeneralTabPage.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			GeneralTabPage.Size = new System.Drawing.Size(457, 327);
 			GeneralTabPage.TabIndex = 0;
-			GeneralTabPage.Text = "General";
+			GeneralTabPage.Text = "通用";
 			// 
 			// GeneralSettingsPanel
 			// 
@@ -221,7 +221,7 @@ namespace EveOPreview.View
 			this.MinimizeInactiveClientsCheckBox.Name = "MinimizeInactiveClientsCheckBox";
 			this.MinimizeInactiveClientsCheckBox.Size = new System.Drawing.Size(239, 24);
 			this.MinimizeInactiveClientsCheckBox.TabIndex = 24;
-			this.MinimizeInactiveClientsCheckBox.Text = "Minimize inactive EVE clients";
+			this.MinimizeInactiveClientsCheckBox.Text = "最小化不活跃的EVE客户端";
 			this.MinimizeInactiveClientsCheckBox.UseVisualStyleBackColor = true;
 			this.MinimizeInactiveClientsCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -233,7 +233,7 @@ namespace EveOPreview.View
 			this.EnableClientLayoutTrackingCheckBox.Name = "EnableClientLayoutTrackingCheckBox";
 			this.EnableClientLayoutTrackingCheckBox.Size = new System.Drawing.Size(182, 24);
 			this.EnableClientLayoutTrackingCheckBox.TabIndex = 19;
-			this.EnableClientLayoutTrackingCheckBox.Text = "Track client locations";
+			this.EnableClientLayoutTrackingCheckBox.Text = "跟踪客户端位置";
 			this.EnableClientLayoutTrackingCheckBox.UseVisualStyleBackColor = true;
 			this.EnableClientLayoutTrackingCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -247,7 +247,7 @@ namespace EveOPreview.View
 			this.HideActiveClientThumbnailCheckBox.Name = "HideActiveClientThumbnailCheckBox";
 			this.HideActiveClientThumbnailCheckBox.Size = new System.Drawing.Size(266, 24);
 			this.HideActiveClientThumbnailCheckBox.TabIndex = 20;
-			this.HideActiveClientThumbnailCheckBox.Text = "Hide preview of active EVE client";
+			this.HideActiveClientThumbnailCheckBox.Text = "对激活的EVE客户端隐藏预览";
 			this.HideActiveClientThumbnailCheckBox.UseVisualStyleBackColor = true;
 			this.HideActiveClientThumbnailCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -262,7 +262,7 @@ namespace EveOPreview.View
 			this.ShowThumbnailsAlwaysOnTopCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.ShowThumbnailsAlwaysOnTopCheckBox.Size = new System.Drawing.Size(197, 24);
 			this.ShowThumbnailsAlwaysOnTopCheckBox.TabIndex = 21;
-			this.ShowThumbnailsAlwaysOnTopCheckBox.Text = "Previews always on top";
+			this.ShowThumbnailsAlwaysOnTopCheckBox.Text = "保持预览在所有窗口顶部";
 			this.ShowThumbnailsAlwaysOnTopCheckBox.UseVisualStyleBackColor = true;
 			this.ShowThumbnailsAlwaysOnTopCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -276,7 +276,7 @@ namespace EveOPreview.View
 			this.HideThumbnailsOnLostFocusCheckBox.Name = "HideThumbnailsOnLostFocusCheckBox";
 			this.HideThumbnailsOnLostFocusCheckBox.Size = new System.Drawing.Size(340, 24);
 			this.HideThumbnailsOnLostFocusCheckBox.TabIndex = 22;
-			this.HideThumbnailsOnLostFocusCheckBox.Text = "Hide previews when EVE client is not active";
+			this.HideThumbnailsOnLostFocusCheckBox.Text = "在EVE客户端未活动时隐藏预览";
 			this.HideThumbnailsOnLostFocusCheckBox.UseVisualStyleBackColor = true;
 			this.HideThumbnailsOnLostFocusCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -290,7 +290,7 @@ namespace EveOPreview.View
 			this.EnablePerClientThumbnailsLayoutsCheckBox.Name = "EnablePerClientThumbnailsLayoutsCheckBox";
 			this.EnablePerClientThumbnailsLayoutsCheckBox.Size = new System.Drawing.Size(272, 24);
 			this.EnablePerClientThumbnailsLayoutsCheckBox.TabIndex = 23;
-			this.EnablePerClientThumbnailsLayoutsCheckBox.Text = "Unique layout for each EVE client";
+			this.EnablePerClientThumbnailsLayoutsCheckBox.Text = "每个客户端独立布局";
 			this.EnablePerClientThumbnailsLayoutsCheckBox.UseVisualStyleBackColor = true;
 			this.EnablePerClientThumbnailsLayoutsCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -302,7 +302,7 @@ namespace EveOPreview.View
 			this.MinimizeToTrayCheckBox.Name = "MinimizeToTrayCheckBox";
 			this.MinimizeToTrayCheckBox.Size = new System.Drawing.Size(205, 24);
 			this.MinimizeToTrayCheckBox.TabIndex = 18;
-			this.MinimizeToTrayCheckBox.Text = "Minimize to System Tray";
+			this.MinimizeToTrayCheckBox.Text = "最小化到系统托盘";
 			this.MinimizeToTrayCheckBox.UseVisualStyleBackColor = true;
 			this.MinimizeToTrayCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -316,7 +316,7 @@ namespace EveOPreview.View
 			ThumbnailTabPage.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			ThumbnailTabPage.Size = new System.Drawing.Size(457, 327);
 			ThumbnailTabPage.TabIndex = 1;
-			ThumbnailTabPage.Text = "Thumbnail";
+			ThumbnailTabPage.Text = "缩略图";
 			// 
 			// ThumbnailSettingsPanel
 			// 
@@ -342,7 +342,7 @@ namespace EveOPreview.View
 			HeigthLabel.Name = "HeigthLabel";
 			HeigthLabel.Size = new System.Drawing.Size(133, 20);
 			HeigthLabel.TabIndex = 24;
-			HeigthLabel.Text = "Thumbnail Heigth";
+			HeigthLabel.Text = "缩略图高度";
 			// 
 			// WidthLabel
 			// 
@@ -352,7 +352,7 @@ namespace EveOPreview.View
 			WidthLabel.Name = "WidthLabel";
 			WidthLabel.Size = new System.Drawing.Size(127, 20);
 			WidthLabel.TabIndex = 23;
-			WidthLabel.Text = "Thumbnail Width";
+			WidthLabel.Text = "缩略图宽度";
 			// 
 			// ThumbnailsWidthNumericEdit
 			// 
@@ -431,7 +431,7 @@ namespace EveOPreview.View
 			OpacityLabel.Name = "OpacityLabel";
 			OpacityLabel.Size = new System.Drawing.Size(62, 20);
 			OpacityLabel.TabIndex = 19;
-			OpacityLabel.Text = "Opacity";
+			OpacityLabel.Text = "透明度";
 			// 
 			// ZoomTabPage
 			// 
@@ -442,7 +442,7 @@ namespace EveOPreview.View
 			this.ZoomTabPage.Name = "ZoomTabPage";
 			this.ZoomTabPage.Size = new System.Drawing.Size(457, 327);
 			this.ZoomTabPage.TabIndex = 2;
-			this.ZoomTabPage.Text = "Zoom";
+			this.ZoomTabPage.Text = "缩放";
 			// 
 			// ZoomSettingsPanel
 			// 
@@ -467,7 +467,7 @@ namespace EveOPreview.View
 			ZoomFactorLabel.Name = "ZoomFactorLabel";
 			ZoomFactorLabel.Size = new System.Drawing.Size(100, 20);
 			ZoomFactorLabel.TabIndex = 39;
-			ZoomFactorLabel.Text = "Zoom Factor";
+			ZoomFactorLabel.Text = "缩放倍数";
 			// 
 			// ZoomAnchorPanel
 			// 
@@ -603,7 +603,7 @@ namespace EveOPreview.View
 			ZoomAnchorLabel.Name = "ZoomAnchorLabel";
 			ZoomAnchorLabel.Size = new System.Drawing.Size(60, 20);
 			ZoomAnchorLabel.TabIndex = 40;
-			ZoomAnchorLabel.Text = "Anchor";
+			ZoomAnchorLabel.Text = "缩放锚点";
 			// 
 			// EnableThumbnailZoomCheckBox
 			// 
@@ -616,7 +616,7 @@ namespace EveOPreview.View
 			this.EnableThumbnailZoomCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.EnableThumbnailZoomCheckBox.Size = new System.Drawing.Size(141, 24);
 			this.EnableThumbnailZoomCheckBox.TabIndex = 36;
-			this.EnableThumbnailZoomCheckBox.Text = "Zoom on hover";
+			this.EnableThumbnailZoomCheckBox.Text = "启用鼠标放置缩放";
 			this.EnableThumbnailZoomCheckBox.UseVisualStyleBackColor = true;
 			this.EnableThumbnailZoomCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -655,7 +655,7 @@ namespace EveOPreview.View
 			OverlayTabPage.Name = "OverlayTabPage";
 			OverlayTabPage.Size = new System.Drawing.Size(457, 327);
 			OverlayTabPage.TabIndex = 3;
-			OverlayTabPage.Text = "Overlay";
+			OverlayTabPage.Text = "覆盖";
 			// 
 			// OverlaySettingsPanel
 			// 
@@ -680,7 +680,7 @@ namespace EveOPreview.View
 			this.HighlightColorLabel.Name = "HighlightColorLabel";
 			this.HighlightColorLabel.Size = new System.Drawing.Size(46, 20);
 			this.HighlightColorLabel.TabIndex = 29;
-			this.HighlightColorLabel.Text = "Color";
+			this.HighlightColorLabel.Text = "颜色";
 			// 
 			// ActiveClientHighlightColorButton
 			// 
@@ -703,7 +703,7 @@ namespace EveOPreview.View
 			this.EnableActiveClientHighlightCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.EnableActiveClientHighlightCheckBox.Size = new System.Drawing.Size(183, 24);
 			this.EnableActiveClientHighlightCheckBox.TabIndex = 27;
-			this.EnableActiveClientHighlightCheckBox.Text = "Highlight active client";
+			this.EnableActiveClientHighlightCheckBox.Text = "高亮活跃客户端";
 			this.EnableActiveClientHighlightCheckBox.UseVisualStyleBackColor = true;
 			this.EnableActiveClientHighlightCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -718,7 +718,7 @@ namespace EveOPreview.View
 			this.ShowThumbnailOverlaysCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.ShowThumbnailOverlaysCheckBox.Size = new System.Drawing.Size(128, 24);
 			this.ShowThumbnailOverlaysCheckBox.TabIndex = 25;
-			this.ShowThumbnailOverlaysCheckBox.Text = "Show overlay";
+			this.ShowThumbnailOverlaysCheckBox.Text = "启动覆盖";
 			this.ShowThumbnailOverlaysCheckBox.UseVisualStyleBackColor = true;
 			this.ShowThumbnailOverlaysCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -733,7 +733,7 @@ namespace EveOPreview.View
 			this.ShowThumbnailFramesCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.ShowThumbnailFramesCheckBox.Size = new System.Drawing.Size(128, 24);
 			this.ShowThumbnailFramesCheckBox.TabIndex = 26;
-			this.ShowThumbnailFramesCheckBox.Text = "Show frames";
+			this.ShowThumbnailFramesCheckBox.Text = "显示窗口标题和边框";
 			this.ShowThumbnailFramesCheckBox.UseVisualStyleBackColor = true;
 			this.ShowThumbnailFramesCheckBox.CheckedChanged += new System.EventHandler(this.OptionChanged_Handler);
 			// 
@@ -746,7 +746,7 @@ namespace EveOPreview.View
 			ClientsTabPage.Name = "ClientsTabPage";
 			ClientsTabPage.Size = new System.Drawing.Size(457, 327);
 			ClientsTabPage.TabIndex = 4;
-			ClientsTabPage.Text = "Active Clients";
+			ClientsTabPage.Text = "活跃中客户端";
 			// 
 			// ClientsPanel
 			// 
@@ -783,7 +783,7 @@ namespace EveOPreview.View
 			ThumbnailsListLabel.Name = "ThumbnailsListLabel";
 			ThumbnailsListLabel.Size = new System.Drawing.Size(238, 20);
 			ThumbnailsListLabel.TabIndex = 33;
-			ThumbnailsListLabel.Text = "Thumbnails (check to force hide)";
+			ThumbnailsListLabel.Text = "缩略图 (点选强制隐藏)";
 			// 
 			// AboutTabPage
 			// 
@@ -794,7 +794,7 @@ namespace EveOPreview.View
 			AboutTabPage.Name = "AboutTabPage";
 			AboutTabPage.Size = new System.Drawing.Size(457, 327);
 			AboutTabPage.TabIndex = 5;
-			AboutTabPage.Text = "About";
+			AboutTabPage.Text = "关于";
 			// 
 			// AboutPanel
 			// 
@@ -820,7 +820,7 @@ namespace EveOPreview.View
 			DocumentationLinkLabel.Padding = new System.Windows.Forms.Padding(12, 5, 12, 5);
 			DocumentationLinkLabel.Size = new System.Drawing.Size(336, 30);
 			DocumentationLinkLabel.TabIndex = 6;
-			DocumentationLinkLabel.Text = "For more information visit our forum thread:";
+			DocumentationLinkLabel.Text = "关于更多信息访问论坛:";
 			// 
 			// DescriptionLabel
 			// 
@@ -841,7 +841,7 @@ namespace EveOPreview.View
 			this.VersionLabel.Name = "VersionLabel";
 			this.VersionLabel.Size = new System.Drawing.Size(69, 29);
 			this.VersionLabel.TabIndex = 4;
-			this.VersionLabel.Text = "1.0.0";
+			this.VersionLabel.Text = "1.0.0 中文版";
 			// 
 			// NameLabel
 			// 
@@ -852,7 +852,7 @@ namespace EveOPreview.View
 			NameLabel.Name = "NameLabel";
 			NameLabel.Size = new System.Drawing.Size(193, 29);
 			NameLabel.TabIndex = 3;
-			NameLabel.Text = "EVE-O Preview";
+			NameLabel.Text = "EVE-O Preview 中文版";
 			// 
 			// DocumentationLink
 			// 
@@ -871,7 +871,7 @@ namespace EveOPreview.View
 			// 
 			this.NotifyIcon.ContextMenuStrip = this.TrayMenu;
 			this.NotifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("NotifyIcon.Icon")));
-			this.NotifyIcon.Text = "EVE-O Preview";
+			this.NotifyIcon.Text = "EVE-O Preview 中文版";
 			this.NotifyIcon.Visible = true;
 			this.NotifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.RestoreMainForm_Handler);
 			// 
@@ -891,14 +891,14 @@ namespace EveOPreview.View
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.Control;
-			this.ClientSize = new System.Drawing.Size(585, 335);
+			this.ClientSize = new System.Drawing.Size(900, 500);
 			this.Controls.Add(ContentTabControl);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Margin = new System.Windows.Forms.Padding(0);
-			this.MaximizeBox = false;
+			this.MaximizeBox = true;
 			this.Name = "MainForm";
-			this.Text = "EVE-O Preview";
+			this.Text = "EVE-O Preview 中文版";
 			this.TopMost = true;
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClosing_Handler);
 			this.Load += new System.EventHandler(this.MainFormResize_Handler);
